@@ -1,21 +1,19 @@
 import React,{Component} from 'react';
-import { SketchPicker } from 'react-input-colorpicker';
+import { SketchPicker } from 'react-color';
 
-class Component extends Component {
-  state = {
-    background: '#c9c9b5',
-  };
-
-  handleChangeComplete = (color) => {
-    this.setState({ background: color.hex });
+class ColorPicker extends Component {
+  setState = {
+    background: color.hex,
   };
 
   render() {
     return (
-      <SketchPicker
+        <SketchPicker
         color={ this.state.background }
-        onChangeComplete={ this.handleChangeComplete }
+        onClick={()=>{ this.props.updateData(this.state.color)}}
+
       />
     );
   }
 }
+export default ColorPicker;

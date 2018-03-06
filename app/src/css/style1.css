@@ -310,19 +310,13 @@ text-align: justify;
   }
 
 #settings{
-margin-top: 50%;
+
 color:#000;
 font-size: 1em;
 margin-right: 2%;
+float:right;
+width: 25%;
 }
-
-.sett.closed2 {
-  display: none;
-}
-.sett.opened2 {
-  display: block;
-}
-
 #settings ul {
   list-style: none;
   padding: 0;
@@ -383,12 +377,7 @@ margin-right: 2%;
   border:1px solid #e5e5e5;
 }
 .m_sidebar a:hover{color:#9ba827;}
-.m_sidebar.closed {
-  display: none;
-}
-.m_sidebar.opened {
-  display: block;
-}
+
 
 footer {
   clear: both;

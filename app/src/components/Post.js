@@ -4,7 +4,7 @@ import style from '../css/style1.css'
 class Post extends Component {
   render(){
     return (
-      <div id = "content">
+      <div id="content">
         <div id="post">
         			<img src="https://cs5.livemaster.ru/storage/25/21/a065a79194acbc556b4a370a1diz--ukrasheniya-braslet-iz-ametista-i-agata-zvezdnoe-nebo.jpg"/>
         			<h2 className="title">Не много о нас</h2>

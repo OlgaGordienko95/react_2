@@ -5,7 +5,9 @@
   "dependencies": {
     "firebase": "^4.10.1",
     "react": "^16.2.0",
+    "react-color": "^2.14.0",
     "react-dom": "^16.2.0",
+    "react-input-colorpicker": "^1.0.13",
     "react-scripts": "1.1.1"
   },
   "scripts": {
